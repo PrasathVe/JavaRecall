@@ -1,0 +1,50 @@
+package com.java.collection;
+
+import java.util.ArrayList;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Scanner;
+
+public class PracticeEx {
+
+	
+
+	public static void main(String[] args) {
+		String given = "Prasath";
+		String vow = "aeiou";
+		char[] vowChar = vow.toCharArray()
+		String result = "";
+		char[] charArray = given.toCharArray();
+		for (int i=0; i<=charArray.length;i++) {
+			if (vowChar[i] == charArray[i]) {
+				System.out.println("Success");
+			}
+			else {
+				System.out.println("Failure");
+			}
+		}
+		}
+		
+		
+	}
+
+	
+	
+
+	
+	
+	
+		
+		
+
+		
+		
+			
+		
+		
+	
+
+

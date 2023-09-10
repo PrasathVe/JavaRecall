@@ -1,0 +1,44 @@
+package com.java.collection;
+
+import java.util.ArrayList;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.ListIterator;
+
+public class PracticeEx {
+
+	
+
+	public static void main(String[] args) {
+		int mySal = 200000;
+		int youSal = 300000;
+		
+		int temp = mySal;
+		mySal = youSal;
+		youSal= temp;
+		System.out.println("After Swap MySal : "+mySal);
+		System.out.println("After Swap YouSal : "+youSal);
+		}
+		
+		
+	}
+
+	
+	
+
+	
+	
+	
+		
+		
+
+		
+		
+			
+		
+		
+	
+
+

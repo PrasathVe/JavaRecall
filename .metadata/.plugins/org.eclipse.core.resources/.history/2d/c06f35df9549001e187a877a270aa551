@@ -1,0 +1,156 @@
+package com.java.topics;
+
+import java.io.Console;
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Scanner;
+import java.util.TimeZone;
+
+public class Practices {
+	
+	
+	
+	public static void main(String[] args) {
+		int arrayStream []= {30, -20, 0, 30, 40, 60, 50};
+		System.out.println(Arrays.toString(arrayStream));
+		boolean found=false;
+		
+		for(int i=0;i<=arrayStream.length;i++) {
+			if(arrayStream[i]==30|| arrayStream[i]==40) {
+				found=true;
+				
+			}
+		}
+			if(found) {
+				System.out.println("True");
+			}else {
+				System.out.println("False");
+			}
+		
+
+
+			}
+		
+		
+		
+
+		
+		
+
+	
+}
+
+			
+
+	
+	
+	
+
+
+	
+		
+			
+		
+						
+			
+
+							
+
+		
+	
+				
+				
+				
+				
+					
+			
+		
+		
+		
+				
+
+			
+
+		
+
+		
+			
+			
+		
+		
+		
+		
+		
+			
+		
+	
+
+			
+		
+	
+
+
+		
+		
+			
+
+		
+	
+
+		
+		
+	
+
+		
+		
+		
+		
+	
+	
+
+		
+		
+		
+		
+		
+			
+
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+		
+		
+			
+		
+		
+
+
+	
+	
+
+
+	
+
+
+
+
+
+
+		
+		
+
+		
+
+	
+
+

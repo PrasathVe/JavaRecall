@@ -1,0 +1,43 @@
+package com.java.collection;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.ListIterator;
+
+public class PracticeEx {
+
+	public static void main(String[] args) {
+		int givenNumber = 876;
+		int reversed =0;
+		while(givenNumber!=0) {
+			
+		
+		reversed = reversed*10;
+		reversed = reversed+givenNumber%10;
+		givenNumber = givenNumber/10;
+		}
+		System.out.println(reversed);
+		}
+		
+		
+	}
+
+	
+	
+
+	
+	
+	
+		
+		
+
+		
+		
+			
+		
+		
+	
+
+
